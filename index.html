@@ -9,22 +9,73 @@
 </head>
 
 <body>
-      <header>
-        <h1>Crazy Pizza</h1>
-        <nav>
-          <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="/carte.html">Carte</a></li>
-            <li><a href="/photos.html">Photos</a></li>
-            <li><a href="/Restaurant.html">Restaurant</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-          </ul>
+      <header>       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h1>Crazy Pizza</h1></a>
+            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>-->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav text-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/carte.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/photos.html">Photos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Restaurant.html">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+
+                  <!-- Example single danger button -->
+            <div class="btn-group">
+              
+              <button type="button" class="btn btn-warning dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Navigation
+             
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/index.html">Navigation</a></li>
+                  <li><a class="dropdown-item" href="/carte.html">Carte</a></li>
+                  <li><a class="dropdown-item" href="/photos.html">Photos</a></li>
+                  <li><a class="dropdown-item" href="/Restaurant.html">Restaurant</a></li>
+                  <li><a class="dropdown-item" href="/contact.html">Contact</a></li>
+
+                </ul>
+             </button>
+            </div>
+
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-      </header>
+
+      <!--
+         <nav>
+          <ul>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Accueil</a></li>
+              <li><a class="dropdown-item" href="#">Carte</a></li>
+              <li><a class="dropdown-item" href="#">Photos</a></li>
+              <li><a class="dropdown-item" href="#">Restaurant</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+          </ul>
+        </nav>-->
+  </header>
 
 <!-- Section image de fond top-->
 <section>
-  <div><img src="/images/crazypizza.jpg" alt="Crazy Pizza"></div>
+  <div><img src="/images/crazypizza.jpg" alt="Crazy Pizza" class="img-fluid"></div>
 </section>
 <!-- section avec les deux parties-->
 <section>
