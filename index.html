@@ -11,10 +11,10 @@
     <script src="https://kit.fontawesome.com/83f4286022.js" crossorigin="anonymous"></script>
   </head>
 
-<body>
+<body class="bg-dark background-font">
       <header> 
         <nav class="navbar navbar-expand-md bg-gradient bg-dark">
-         <a href="/index.html"> <i class="fas fa-pizza-slice fa-2x text-warning m-3"></i></a>
+         <a href="/index.html"><i class="fas fa-pizza-slice fa-2x text-warning m-3"></i></a>
           <ul class="navbar-nav container-fluid m-2">
             <li class="nav-item"><a class="nav-link text-warning fs-3" href="/index.html">Accueil</a></li>
             <li class="nav-item"><a class="nav-link text-warning fs-3" href="/carte.html">Carte</a></li>
@@ -28,7 +28,7 @@
 
 
 
-  </header>
+      </header>
 
 <!-- Section image de fond top-->
 <section>
@@ -36,44 +36,56 @@
     <img src="/images/crazypizza.jpg" alt="Crazy Pizza" class="img-fluid mt-3">
   </div>
 </section>
-<!-- section avec les deux parties-->
-<section class="container-fluid row">
-  <div class="row">
-    <div class="col">
-      <h3>Promotion du mois</h3>
-      <p>MEGA PROMO: 1 pizza acheté = 1 pizza acheté!</p>
-      <p>Alors FONCEZ</p>
-      <img src="/images/MEATZZA2.jpg" alt="pizzaburger" class="w-25">
+<!--section avec les deux parties-->
+
+<section class="container-fluid d-flex justify-content-center">
+ 
+  <div class="card-group p-5">
+    <div class="card container-fluid d-flex p-5 border border-warning rounded m-lg-5 text-warning bg-danger">
+      <img class="card-img-top" src="/images/MEATZZA2.jpg" alt="Card image cap">
+      <div class="card-body text-center border border-warning">
+        <h5 class="card-title">Promotion du mois</h5>
+        <p class="card-text">1 pizza achetée = 1 pizza achetée</p>
+        <p class="card-text"><small class="text-muted">Offre limitée dans les stocks disponible</small></p>
+      </div>
     </div>
-    <div class="col">
-      <h3>Sponsor officiel de PIZZA F.C.</h3>
-      <p>ALLEZ LES SALAMI</p>
-      <img src="/images/pizzafc.png" alt="pizzabatman" class="w-25">
-  </div>
-</div>
+
+
+    <div class="card container-fluid d-flex p-5 border border-warning rounded m-lg-5 text-warning bg-danger">
+      <img class="card-img-top" src="/images/pizzafc.png" alt="Card image cap">
+      <div class="card-body  text-center border border-warning ">
+        <h3 class="card-title">Sponsor officiel de
+          <p><i class="fas fa-star"></i>  F.C. PIZZA  <i class="fas fa-star"></i></p>
+        </h3>
+        <p class="card-text">Allez les Salami</p>
+      </div>
+    </div>
+
 </section>
 
 <!-- Section avec vidéo-->
 
-  <section>
-    <div>
-      <h2>Présentation de notre savoir-faire</h2>
-    </div>    
-    <div>
-      <h3>Vidéo</h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/HIasPkVl_tM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+
+
+  <section class="container-fluid ">
+    <div class=" text-warning text-center">
+      <h2>Présentation de notre savoir-faire en vidéo</h2>
+      <p></p>
+      <iframe width="800" height="560" src="https://www.youtube.com/embed/al0GJVLozO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vp1rxlaf0GQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wIUoVawdJts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </section>
 
 <!-- div jumbotron-->
 
-      <div class="jumbotron">
+      <div class="jumbotron text-warning">
         <h1 class="display-4">Crazy Pizza</h1>
         <p class="lead">Vous aussi? vous êtes fan de nous ?</p>
         <hr class="my-4">
         <p>Alors n'attendez plus</p>
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Envoyez-nous votre argent.</a>
+          <a class="btn btn-danger btn-warning" href="#" role="button">Envoyez-nous votre argent.</a>
         </p>
       </div>
 
