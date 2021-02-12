@@ -1,6 +1,8 @@
 body {
-    background-image: url(/images/2_NewYorkSlice.gif);
+    /**background-image: url(/images/2_NewYorkSlice.gif);**/
     font-family: monospace;
+    box-shadow: darkgoldenrod;
+    background-color: lightblue;
 }
 
 
@@ -10,3 +12,6 @@ body {
     width: 60rem;
     
 }
+
+/** span caroussel page photos**/
+
