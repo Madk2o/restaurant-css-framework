@@ -1,6 +1,6 @@
 body {
     /**background-image: url(/images/2_NewYorkSlice.gif);**/
-    font-family: monospace;
+    font-family: cursive;
     box-shadow: darkgoldenrod;
     background: rgba(231,56,39,1);
 background: -moz-linear-gradient(left, rgba(231,56,39,1) 0%, rgba(239,100,81,1) 40%, rgba(241,111,92,1) 50%, rgba(244,65,39,1) 83%, rgba(246,41,12,1) 100%);
@@ -14,8 +14,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', end
 
 
 
-/** navbar toggle**/
-
+/** navbar font**/
+.navbar{
+    font-family: fantasy;
+}
 
 
 /** style image pizza crazy**/
