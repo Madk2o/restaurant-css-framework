@@ -15,7 +15,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', end
 
 
 /** navbar font**/
-.navbar{
+.navi{
+
+    background: rgba(255,0,26,1);
+    background: -moz-linear-gradient(top, rgba(255,0,26,1) 0%, rgba(212,212,212,1) 8%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 71%, rgba(212,212,212,1) 93%, rgba(255,10,10,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,0,26,1)), color-stop(8%, rgba(212,212,212,1)), color-stop(26%, rgba(255,255,255,1)), color-stop(71%, rgba(255,255,255,1)), color-stop(93%, rgba(212,212,212,1)), color-stop(100%, rgba(255,10,10,1)));
+    background: -webkit-linear-gradient(top, rgba(255,0,26,1) 0%, rgba(212,212,212,1) 8%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 71%, rgba(212,212,212,1) 93%, rgba(255,10,10,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,0,26,1) 0%, rgba(212,212,212,1) 8%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 71%, rgba(212,212,212,1) 93%, rgba(255,10,10,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,0,26,1) 0%, rgba(212,212,212,1) 8%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 71%, rgba(212,212,212,1) 93%, rgba(255,10,10,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,0,26,1) 0%, rgba(212,212,212,1) 8%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 71%, rgba(212,212,212,1) 93%, rgba(255,10,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff001a', endColorstr='#ff0a0a', GradientType=0 );
     font-family: fantasy;
 }
 
@@ -23,11 +32,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', end
 /** style image pizza crazy**/
 
 .imagecrazy img{
-    width: 60rem;    
+    width: 49rem;
+    filter: brightness(120%) contrast(82%);
+    padding-bottom: 5rem;
 }
 
-/** span caroussel page photos**/
+.kenburns-top{-webkit-animation:kenburns-top 5s ease-out both;animation:kenburns-top 5s ease-out both}
+
+@-webkit-keyframes kenburns-top{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 16%;transform-origin:50% 16%}100%{-webkit-transform:scale(1.25) translateY(-15px);transform:scale(1.25) translateY(-15px);-webkit-transform-origin:top;transform-origin:top}}@keyframes kenburns-top{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 16%;transform-origin:50% 16%}100%{-webkit-transform:scale(1.25) translateY(-15px);transform:scale(1.25) translateY(-15px);-webkit-transform-origin:top;transform-origin:top}}
+
+/** button caroussel page photos**/
 
 
-/**section avec les menus**/
+.boutonphoto{
+    background: rgba(254,182,69,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(254,182,69,1) 0%, rgba(254,182,69,1) 38%, rgba(240,119,104,1) 93%, rgba(240,119,104,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(254,182,69,1)), color-stop(38%, rgba(254,182,69,1)), color-stop(93%, rgba(240,119,104,1)), color-stop(100%, rgba(240,119,104,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(254,182,69,1) 0%, rgba(254,182,69,1) 38%, rgba(240,119,104,1) 93%, rgba(240,119,104,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(254,182,69,1) 0%, rgba(254,182,69,1) 38%, rgba(240,119,104,1) 93%, rgba(240,119,104,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(254,182,69,1) 0%, rgba(254,182,69,1) 38%, rgba(240,119,104,1) 93%, rgba(240,119,104,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(254,182,69,1) 0%, rgba(254,182,69,1) 38%, rgba(240,119,104,1) 93%, rgba(240,119,104,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f07768', GradientType=1 );
+    width: 5rem;
+    height: 5rem;
+    align-content: center;
+    margin-top: auto;
+    border-radius: 1rem;
+     }
+
+
+
+
+/**section jumbptron**/
+
+.jumbotron{
+ background-image: url(/images/paypal.gif);
+ background-size: 99%;
+ background-position-y: center;
+ 
+}
+
+/**page contact**/
+
+.formulaire{
+    font-size: large;
+}
+
+
 
