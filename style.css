@@ -43,6 +43,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', end
 
 /** button caroussel page photos**/
 
+.kenburns-bottom{-webkit-animation:kenburns-bottom 1s ease-out both;animation:kenburns-bottom 1s ease-out both}
+
+
+@-webkit-keyframes kenburns-bottom{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 84%;transform-origin:50% 84%}100%{-webkit-transform:scale(1.25) translateY(15px);transform:scale(1.25) translateY(15px);-webkit-transform-origin:bottom;transform-origin:bottom}}@keyframes kenburns-bottom{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 84%;transform-origin:50% 84%}100%{-webkit-transform:scale(1.25) translateY(15px);transform:scale(1.25) translateY(15px);-webkit-transform-origin:bottom;transform-origin:bottom}}
 
 .boutonphoto{
     background: rgba(254,182,69,1);
@@ -75,7 +79,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', end
 /**page contact**/
 
 .formulaire{
-    font-size: large;
+    font-size: 1rem;
+    font-style: bold;
 }
 
 
