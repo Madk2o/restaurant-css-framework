@@ -44,11 +44,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', end
     color: darkred;
 }
 
+
 .text-focus-in{
     animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
 
  @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
-/** style image pizza crazy**/
+
+.pizzicon{
+    transform: rotate(140deg);
+    color: gold;
+    filter: brightness(105%);
+    padding: 0.15rem;
+}
+
+
+ /** style image pizza crazy**/
 
 .imagecrazy img{
     width: 49rem;
